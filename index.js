@@ -20,7 +20,11 @@ app.get('/', function(req, res){
 
 app.post('/post', function(req, res){
   console.log(req.body.text);
-  res.send('Response to POST request')
+  var data {
+    response_type: "ephemeral";
+    text: 'Reddit Bot Response to POST',
+  }
+  res.send(data);
   });
 
 /*
