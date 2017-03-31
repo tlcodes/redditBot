@@ -1,0 +1,29 @@
+{
+  "name": "redditbot",
+  "version": "1.0.0",
+  "description": "Reddit bot for Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlcodes/redditBot.git"
+  },
+  "keywords": [
+    "reddit",
+    "bot",
+    "slack",
+    "commands"
+  ],
+  "author": "The Morning Bunch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlcodes/redditBot/issues"
+  },
+  "homepage": "https://github.com/tlcodes/redditBot#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
