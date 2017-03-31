@@ -18,13 +18,13 @@ app.get('/', function(req, res){
   res.send('Get request works!');
 });
 
-app.post('/post', function(req, res){
+app.post('/', function(req, res){
   console.log(req.body.text);
-  var data {
-    response_type: "ephemeral";
-    text: 'Reddit Bot Response to POST',
+  var data = {
+    response_type: "ephemeral",
+    text: 'Reddit Bot Response to POST'
   }
-  res.send(data);
+  res.send(data.text);
   });
 
 /*
